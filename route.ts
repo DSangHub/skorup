@@ -1,0 +1,2 @@
+import {NextRequest,NextResponse} from "next/server";
+export async function POST(req:NextRequest){const {message}=await req.json();return NextResponse.json({reply:`Demo SkorUp AI: I received “${String(message).slice(0,180)}”. Connect an approved AI provider in this server route for personalized analysis.`});}

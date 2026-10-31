@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";
+export async function GET(){return NextResponse.json({credit:{score:682,change:12,label:"Good",utilization:42},money:{balance:4892,income:5200,spending:3148,bills:1240,savings:1050},health:68,bills:[{name:"Netflix",amount:15.99,date:"Nov 24"},{name:"Electricity",amount:120,date:"Nov 25"},{name:"Car Payment",amount:420,date:"Nov 28"},{name:"Phone",amount:89,date:"Dec 1"},{name:"Rent",amount:1200,date:"Dec 1"}],actions:["Reduce credit card balances","Review $129 subscription","Move $50 to emergency savings"]});}
